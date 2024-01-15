@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../front-end/base.css">
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+      background-color: blue;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #890d0d;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="card">
+            <span class="meb-title">
+                <span class="img" id="hydromel"></span>
+                <span class="meb-me">
+                    <span>Hydromel Victor Doledji</span>
+                    <small>Founder</small>
+                </span>
+            </span>
+            <span class="meb-skill">
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    Mathematician</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    ALX Software Engineer Back end graduate</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    Python specialist</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    Devops</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    artificial intelligence enthusiast</span>
+            </span>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+            <span class="meb-title">
+                <span class="img" id="dav"></span>
+                <span class="meb-me">
+                    <span>Kessa David KIPRE</span>
+                    <small>Executive director</small>
+                </span>
+            </span>
+            <span class="meb-skill">
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    Mathematician</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    ALX Software Engineer Back end graduate</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    Front developer</span>
+            </span>
+            <span class="meb-rezo">
+                <a href="" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </span>
+        </div>
+      </div>
+      
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="wrapper">
+                
+    <ul class="carousel">
+        
+        <li class="card">
+            <span class="meb-title">
+                <span class="img" id="hydromel"></span>
+                <span class="meb-me">
+                    <span>Hydromel Victor Doledji</span>
+                    <small>Founder</small>
+                </span>
+            </span>
+            <span class="meb-skill">
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    Mathematician</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    ALX Software Engineer Back end graduate</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    Python specialist</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    Devops</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    artificial intelligence enthusiast</span>
+            </span>
+            <span class="meb-rezo">
+                <a href="https://github.com/hydromelvictor" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/hydromelvictor/" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/hydromelvictor" target="_blank">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100093949968781" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </span>
+        </li>
+        <li class="card">
+            <span class="meb-title">
+                <span class="img" id="dav"></span>
+                <span class="meb-me">
+                    <span>Kessa David KIPRE</span>
+                    <small>Executive director</small>
+                </span>
+            </span>
+            <span class="meb-skill">
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    Mathematician</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    ALX Software Engineer Back end graduate</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    Front developer</span>
+            </span>
+            <span class="meb-rezo">
+                <a href="" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </span>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="card">
+            <span class="meb-title">
+                <span class="img" id="hydromel"></span>
+                <span class="meb-me">
+                    <span>Hydromel Victor Doledji</span>
+                    <small>Founder</small>
+                </span>
+            </span>
+            <span class="meb-skill">
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    Mathematician</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    ALX Software Engineer Back end graduate</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    Python specialist</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    Devops</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    artificial intelligence enthusiast</span>
+            </span>
+            
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+            <span class="meb-title">
+                <span class="img" id="dav"></span>
+                <span class="meb-me">
+                    <span>Kessa David KIPRE</span>
+                    <small>Executive director</small>
+                </span>
+            </span>
+            <span class="meb-skill">
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    Mathematician</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    ALX Software Engineer Back end graduate</span>
+                <span>
+                    <i class="bi bi-check2-circle"></i>
+                    Front developer</span>
+            </span>
+            <span class="meb-rezo">
+                <a href="" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </span>
+        </div>
+      </div>
+      
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>

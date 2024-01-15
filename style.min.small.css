@@ -1,0 +1,111 @@
+@media only screen and (min-width: 481px)  and (max-width: 769px){
+
+    .home-body{
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .elt-home.left{
+          margin-top: 5em;
+      }
+      .elt-home{
+          margin-bottom: 5em;
+      }
+      .def {
+          font-size: 4em;
+          padding: .1em 0;
+      }
+  
+      .elt-us{
+          display: none;
+      }
+      /* about */
+      #about{
+          height: 100vh;
+      }
+      /* expertise-values */
+      #expertise{
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin: 2em;
+      }
+      #expertise-elt{
+          margin: 2em;
+          width: 100%;
+      }
+      .vertical-line{
+          display: none;
+      }
+      .values-list-title{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin: 2em;
+      }
+  
+      /* service */
+      #service {
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: auto;
+      }
+      .service{
+          width: 80%;
+      }
+      .service-middle-card{
+          width: 80%;
+      }
+  
+  /* Caroussel */
+  
+  .contain_slider{
+      width: 400px;
+      margin: 20px auto;
+      height: 400px;
+    }
+    .controls{
+      display: block;
+    }
+    .caroussel{
+      width: 100%;
+      height: 100%;
+  
+      display: flex;
+      justify-content: flex-start;
+      position: relative;
+       overflow: hidden; 
+    }
+    
+    .arrow {
+      position: absolute;
+      top: 40%;
+      cursor: pointer;
+    }
+    
+    .arrow.prev{
+      left: 10px;
+    }
+    .arrow.next{
+      right: 10px;
+    }
+    .slider{
+      display: flex;
+      height: 100vh;
+      width: 200%;
+      flex-shrink: 0;
+      transition: all 0.5s;
+    }
+    
+    .slider .card-creator {
+      flex-basis: 20%;
+      flex-shrink: 0;
+      flex: 1;
+      width: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+}
