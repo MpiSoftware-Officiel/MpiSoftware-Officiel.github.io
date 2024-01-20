@@ -91,14 +91,15 @@ nav ul {
 }
 nav ul li {
 display: inline-block;
-line-height: 80px;
+line-height: 50px;
 margin: 0 5px;
 }
 .hamberger {
 display: none;
 }
 .menu.active{
-height: 450px;
+height: 300px;
+padding-bottom: 5px;
 }
 .menu.active ul{
 opacity: 1;

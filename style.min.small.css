@@ -1,5 +1,18 @@
-@media only screen and (min-width: 481px)  and (max-width: 769px){
+@media only screen and (min-width: 581px)  and (max-width: 769px){
 
+  #call {
+    padding: .5em 1em;
+}
+
+nav ul {
+  justify-content: flex-start;
+  
+}
+
+nav ul li:nth-child(2n) {
+  margin: 0 1rem;
+}
+  
     .home-body{
         height: 100vh;
         flex-direction: column;
@@ -108,4 +121,5 @@
       align-items: center;
       justify-content: center;
     }
+    
 }

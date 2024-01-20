@@ -4,13 +4,25 @@
     /* header */
 
 
-    /* home */
+    #call {
+      padding: .5em 1em;
+  }
+
+  nav ul {
+    justify-content: flex-start;
+    
+  }
+
+  nav ul li:nth-child(2n) {
+    margin: 0 1rem;
+  }
 
 
     .home-body{
       height: 100vh;
       flex-direction: column;
       justify-content: center;
+      
     }
     .elt-home.left{
         margin-top: 5em;
